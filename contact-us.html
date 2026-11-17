@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact TAT Games for game support, feedback, privacy questions, and business inquiries.">
+  <meta name="theme-color" content="#101828">
+  <title>Contact Us | TAT Games</title>
+  <style>
+    :root{color-scheme:light;--ink:#16233b;--muted:#66758a;--blue:#2957de;--bg:#f5f7fb;--stroke:#e0e6f0}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
+    .top{background:#101828;color:#fff;padding:20px 24px}
+    .top-inner{max-width:960px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    .brand{font-size:21px;font-weight:800;letter-spacing:.07em;color:white;text-decoration:none}
+    nav{display:flex;gap:22px;flex-wrap:wrap}
+    nav a{color:#d9e2f5;text-decoration:none;font-size:14px}
+    nav a:hover{text-decoration:underline}
+    main{max-width:960px;margin:0 auto;padding:75px 24px 88px}
+    .eyebrow{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);margin:0 0 12px}
+    h1{font-size:clamp(36px,6vw,56px);line-height:1.12;letter-spacing:-.035em;margin:0 0 22px}
+    .intro{max-width:700px;font-size:18px;color:var(--muted);margin:0 0 34px}
+    .card{background:#fff;border:1px solid var(--stroke);border-radius:18px;box-shadow:0 10px 34px rgba(16,24,40,.045);padding:32px;margin-bottom:24px}
+    .card h2{font-size:22px;letter-spacing:-.02em;margin:0 0 10px}
+    .card p{margin:0 0 18px;color:var(--muted)}
+    .email{font-size:clamp(16px,3vw,22px);font-weight:700;overflow-wrap:anywhere;color:var(--ink)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;background:var(--blue);color:white;text-decoration:none;padding:12px 22px;border-radius:10px;font-weight:700;margin-top:22px}
+    .btn:hover{background:#2048bf}
+    .tips{margin:8px 0 0;padding-left:22px;color:var(--muted)}
+    .tips li{margin:8px 0}
+    footer{border-top:1px solid var(--stroke);padding:26px 24px 34px;color:var(--muted);font-size:14px}
+    .foot-inner{max-width:960px;margin:auto;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    footer a{color:var(--blue);text-decoration:none}
+    footer a:hover{text-decoration:underline}
+    @media(max-width:600px){main{padding:48px 18px 60px}.card{padding:24px}.top{padding:18px}}
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <a class="brand" href="/">TAT GAMES</a>
+      <nav aria-label="Main navigation">
+        <a href="/contact-us.html" aria-current="page">Contact Us</a>
+        <a href="/privacy-policy.html">Privacy Policy</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <p class="eyebrow">We're here to help</p>
+    <h1>Contact Us</h1>
+    <p class="intro">Have a question about a TAT Games title, need help with an issue, or want to share feedback? Get in touch with us by email.</p>
+    <section class="card" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Email TAT Games</h2>
+      <p>For game support, feedback, privacy-related questions, or business inquiries, contact us at:</p>
+      <a class="email" href="mailto:mr.alihassan8882@icloud.com">mr.alihassan8882@icloud.com</a>
+      <div><a class="btn" href="mailto:mr.alihassan8882@icloud.com?subject=TAT%20Games%20-%20Support%20Inquiry">Send an Email</a></div>
+    </section>
+    <section class="card" aria-labelledby="help-heading">
+      <h2 id="help-heading">For faster support</h2>
+      <p>When reporting a problem, including the following details can help us understand your request:</p>
+      <ul class="tips">
+        <li>The name of the TAT Games title you're contacting us about</li>
+        <li>Your device model and iOS version, if relevant</li>
+        <li>A short description of the issue and the steps that led to it</li>
+        <li>An optional screenshot, without passwords or other sensitive personal information</li>
+      </ul>
+    </section>
+  </main>
+  <footer><div class="foot-inner"><span>&copy; <span id="year">2026</span> TAT Games. All rights reserved.</span><span><a href="/privacy-policy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="/contact-us.html">Contact Us</a></span></div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
